@@ -40,3 +40,46 @@
   transform: scale(0.8);
   box-shadow: 0 0 5px black;
 }
+
+/* TodoList */
+.todos {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+/* SingleTodo */
+.todo_single{
+  display: flex;
+  width: 29.5%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background-color: yellowgreen;
+}
+
+.todo_single .todos_single--text{
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  width: 60%;
+}
+.todo_single .todos_single--text:focus{
+  outline: none;
+}
+.todo_single div{
+  width: 30%;
+  display: flex;
+}
+.todo_single .icon{
+  margin-left: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid  #2f74c0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
